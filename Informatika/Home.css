@@ -1,0 +1,204 @@
+
+.body-utama{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(31, 1, 49);
+    height: 1500px;
+}
+.body{
+    height: 1500px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-1{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color:rgb(30, 56, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px cyan,
+    1px 1px 15px cyan inset;
+}
+.pembuka{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-pembuka{
+    background-image: url("text.png");
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    filter: drop-shadow(10px 10px 10px 30px rgba(27, 141, 218, 0.237));
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kembali{
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    
+}
+.kembali-content{
+    height: 250px;
+    width: 40%;
+    background-color: rgb(30, 56, 84);
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 15px cyan,
+    2px 2px 15px cyan inset;
+}
+.image-kembali{
+    border-radius: 100%;
+    box-shadow: 2px 2px 15px rgb(31, 1, 49),
+    2px 2px 15px rgb(31, 1, 49) inset;
+}
+.kembali-tulisan{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.h3-kembali{
+    border-radius: 10px;
+    background-color:rgb(64, 14, 93);
+    color: #ecd9d9;
+    font-weight: 700;
+    filter: drop-shadow(10px 10px 10px 30px rgba(29, 129, 195, 0.237)) inset;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 15px blueviolet;
+}
+.h3-kembali:hover{
+    background-image: url("background.png");
+    background-size: cover;
+}
+.p-kembali{
+    background-color: rgb(64, 14, 93);
+    color: #ecd9d9;
+    font-weight: 400;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    filter: drop-shadow(10px 10px 10px 30px rgba(29,129,195,0.237)) inset;
+    box-shadow: 2px 2px 15px blueviolet;
+}
+.garis1{
+    background-color: cyan;
+    height:2px;
+    width: 40%;
+    box-shadow: 1px 1px 15px blueviolet,
+    1px 1px 15px blueviolet inset;
+}
+.kurungGaris{
+    height: 100%;
+    width: 20%;
+    align-items: end;
+    display: flex;
+}
+.garis2{
+    background-color: cyan;
+    width: 2px;
+    height:50%;
+    box-shadow: 1px 1px 15px blueviolet,
+    1px 1px 15px blueviolet inset;
+}
+.penyusun{
+    background-color: rgb(31, 1, 49);
+    height: 300px;
+    justify-content: right;
+    display: flex;
+}
+.penyusun-content{
+    height: 250px;
+    width: 40%;
+    background-color: rgb(30, 56, 84);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 15px cyan,
+    2px 2px 15px cyan inset;
+}
+.garis3{
+    height: 2px;
+    width: 80%;
+    background-color: cyan;
+    box-shadow: 1px 1px 15px blueviolet,
+    1px 1px 15px blueviolet inset;
+}
+.garis4{
+    height: 50%;
+    width: 2px;
+    background-color: cyan;
+    box-shadow: 1px 1px 15px blueviolet,
+    1px 1px 15px blueviolet inset;
+}
+.kurunggaris2-2{
+    height:100%;
+    width: 100px;
+    align-items: end;
+    justify-content: right;
+    display: flex;
+}
+.kurungGaris2{
+    height: 100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.content{
+    height: 300px;
+    justify-content: left;
+    display: flex;
+    align-items:start;
+}
+.kurunggaris1{
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.garis1-2{
+    width: 100%;
+    height: 2px;
+    background-color: cyan;
+    box-shadow: 1px 1px 15px blueviolet,
+    1px 1px 15px blueviolet inset;
+}
+.button{
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ecd9d9;
+    background-color:  rgb(64, 14, 93);
+    filter: drop-shadow(10px 10px 10px 30px rgba(29,129,195,0.237)) inset;
+    box-shadow: 2px 2px 15px blueviolet;
+}
+.button:hover{
+    border-style: hidden;
+    box-shadow: 2px 2px 15px cyan,
+    2px 2px 15px cyan inset;
+}
+.image-kembali2{
+    border-radius: 100%;
+    width: 45%;
+    height: 75%
+}
